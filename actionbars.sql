@@ -10,16 +10,16 @@ Target Server Type    : MYSQL
 Target Server Version : 80016
 File Encoding         : 65001
 
-Date: 2019-06-09 03:56:22
+Date: 2019-06-15 15:37:42
 */
 
 SET FOREIGN_KEY_CHECKS=0;
 
 -- ----------------------------
--- Table structure for `actionsbars`
+-- Table structure for `actionbars`
 -- ----------------------------
-DROP TABLE IF EXISTS `actionsbars`;
-CREATE TABLE `actionsbars` (
+DROP TABLE IF EXISTS `actionbars`;
+CREATE TABLE `actionbars` (
   `CharacterName` varchar(16) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL DEFAULT 'NULL',
   `ActionBarSlot1ItemNumber` int(8) NOT NULL DEFAULT '-1',
   `ActionBarSlot2ItemNumber` int(8) NOT NULL DEFAULT '-1',
@@ -37,5 +37,5 @@ CREATE TABLE `actionsbars` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 -- ----------------------------
--- Records of actionsbars
+-- Records of actionbars
 -- ----------------------------
