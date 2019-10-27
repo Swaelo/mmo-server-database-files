@@ -18,6 +18,8 @@ SET FOREIGN_KEY_CHECKS=0;
 -- ----------------------------
 -- Table structure for `globals`
 -- ----------------------------
+CREATE DATABASE IF NOT EXISTS serverdatabase;
+USE serverdatabase;
 DROP TABLE IF EXISTS `globals`;
 CREATE TABLE `globals` (
   `NextItemID` int(8) NOT NULL DEFAULT '1',
