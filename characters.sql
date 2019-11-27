@@ -35,6 +35,8 @@ CREATE TABLE `characters` (
   `CameraZoom` float(16,0) NOT NULL DEFAULT '0',
   `CameraXRotation` float(16,0) NOT NULL DEFAULT '0',
   `CameraYRotation` float(16,0) NOT NULL DEFAULT '0',
+  `CurrentHealth` int(8) NOT NULL DEFAULT `1`,
+  `MaxHealth` int(8) NOT NULL DEFAULT `1`,
   `ExperiencePoints` int(8) NOT NULL DEFAULT '0',
   `ExperienceToLevel` int(8) NOT NULL DEFAULT '100',
   `Level` int(8) NOT NULL DEFAULT '1',
