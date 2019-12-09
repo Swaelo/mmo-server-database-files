@@ -24,6 +24,7 @@ DROP TABLE IF EXISTS `characters`;
 CREATE TABLE `characters` (
   `OwnerAccountName` varchar(16) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL DEFAULT 'NULL',
   `CharacterName` varchar(16) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL DEFAULT 'NULL',
+  `IsAlive` int(8) NOT NULL DEFAULT '1',
   `IsMale` int(8) NOT NULL DEFAULT '0',
   `XPosition` float(16,0) NOT NULL DEFAULT '0',
   `YPosition` float(16,0) NOT NULL DEFAULT '0',
